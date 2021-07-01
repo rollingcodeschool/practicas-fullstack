@@ -22,12 +22,14 @@ function calcularPromedio() {
     console.log('El promedio de notas es 😎: ', promedio);
 }
 
+
+
 function calcularAprobados() {
     const cantidadDeAlumnos = parseInt(prompt('Ingrese la cantidad de alumnos'));
     const notas = [];
     let cantidadDeAprobados = 0;
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < cantidadDeAlumnos; i++) {
         const nota = parseInt(prompt('Ingrese una nota'));
         notas.push(nota);
     }
